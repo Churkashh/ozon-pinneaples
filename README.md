@@ -54,7 +54,38 @@ v1.1: [Оповещения про обновления](https://t.me/+qY4o75AoH
         }
     }
     ```
-   - Accounts:
+   - Accounts:{
+    "Accounts": [
+        {
+            "account_name": "Аккаунт 1",
+            "x-o3-app-version": "17.40.1(2518)",
+            "__Secure-access-token": "",
+            "__Secure-refresh-token": "",
+            "abt_data": "",,
+            "generate_abt_data": true,
+            "use_proxy": false,
+            "proxy": ""
+        }
+    ],
+    "Sleep_settings": {
+        "sleep_between_pinneaples": true,
+        "min_delay": 1,
+        "max_delay": 1,
+        "afk": true,
+        "chance_to_afk": 1,
+        "afk_time_min": 1,
+        "afk_time_max": 1,
+        "sleep_between_products": true,
+        "min_time": 0.1,
+        "max_time": 1.1
+    },
+    "Error_handling": {
+        "sleep_if_403_status_code": true,
+        "sleep_time_min": 1,
+        "sleep_time_max": 3,
+        "max_product_check_tries": 1
+    }
+}
        - `account_name`: название аккаунта
        - `x-o3-app-version`: версия приложения (не советую менять)
        - `__Secure-refresh-token`, `__Secure-access-token`, `abt_data`: ваши куки, abt_data заполнять необязательно
